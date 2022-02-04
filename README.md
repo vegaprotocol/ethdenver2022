@@ -2,9 +2,9 @@
 
 
 
-# VEGA ETH Denver Hackathon Launchpad
+# VEGA ETHDenver Hackathon Launchpad
 
-### Thinking of participating in the ETH Denver 2022 hackathon and working on one of the Vega bounties? Well, you're in the right place. The launchpad gives detailed information on each of the bounty challenges, the project, sample code and more.
+### Thinking of participating in the ETHDenver 2022 hackathon and working on one of the Vega bounties? Well, you're in the right place. The launchpad gives detailed information on each of the bounty challenges, the project, sample code and more.
 
 
 ## What is Vega?
@@ -15,7 +15,7 @@ Why derivatives? Because they are an essential class of instruments for any fina
 
 Through a rich set of APIs, developers can build on top of Vega. Platform engineers can plug into trading data and order flow with CEX-like ease. Front-end hackers can create immersive web, mobile or desktop applications rich with real-time data, for example Vega Console: A Javascript application built with React which makes heavy use of the GraphQL API.
 
-Vega believes that the talented web3 community can help build the future of DEFI derivatives trading software. We're super excited to see what you come up with during the hackathon.
+Vega believes that the web3 community can help build the future of DEFI derivatives trading software. We're super excited to see what you come up with during the hackathon.
 
 ## Judging Criteria
 
@@ -38,11 +38,11 @@ Note: Each bounty brief also contains a list of more detailed pointers to help g
 
 Bounty awards will go to the best teams that create (or extend) a block explorer to report and visualise blockchain transaction data as well as any Vega state changes queried from a data node.
 
-The block explorer should be open source and easy to demonstrate in a web browser, with a walkthrough video showing all features implemented. The solution needs to show both Vega and Tendermint data. Installation instructions must be given. Extra points awarded for having a roadmap showing scope for future work. 
-
 Vega networks run on a proof-of-stake blockchain powered by Tendermint, connected by ABCI to a custom high-performance trading core application, this is additionally supported by data APIs (data nodes) to retrieve state information by gRPC, REST and GraphQL.
 
-The goal for this bounty is to build a visual block explorer that shows the transaction data in the Tendermint blocks, state of the blockchain, as well as Vega state changes resulting from transactions. This may include but is not limited to: trades, orders, deposits, withdrawals, etc.
+The goal for this bounty is to build a visual, web based, block explorer that shows the transaction data in the Tendermint blocks, state of the blockchain, as well as Vega state changes resulting from transactions. This may include but is not limited to: trades, orders, deposits, withdrawals, etc.
+
+The solution should be open source and easy to demonstrate in a web browser, with a walkthrough video showing all features implemented. The solution needs to show both Vega and Tendermint data. Installation instructions must be given. Extra points awarded for having a roadmap showing scope for future work. 
 
 See the section [Bounty Criteria](#bounty-criteria) below for the tasks and features we're hoping you can try and deliver for this bounty brief.
 
@@ -50,16 +50,33 @@ See the section [Bounty Criteria](#bounty-criteria) below for the tasks and feat
 
 A block explorer is a tool to view information on all transactions that have taken place on a blockchain. Typically a block explorer will show key information about the chain, for example, the current network hash rate, validator statistics, activity on blockchain addresses and other useful information. You can think of it as a window into the blockchain world, giving you the opportunity to observe what’s happening on it - live and in near real time. Popular Ethereum block explorers include Etherscan, Etherchain and blockscout. 
 
+For Vega networks, all transactions and state changes should be transparent to the users of the protocol. A Vega block explorer will therefore help users track and visualise both the transactions and the output state from the operations or commands contained within transactions.
+
+#### INSPIRATION
+
+The Vega engineering team have built a very simplistic web based implementation of an explorer to give you inspiration, as well as a reference for decoding transactions. Whilst fun to play with and learn from, we'd recommend starting from scratch with React or similar - rather than simply forking this repo!
+
+[IMG]
+
+This app is built with Svelte, and uses Golang code to decode signed Vega transactions from within blocks on the Vega Fairground Testnet. Shout out to @edd and the team!
+
+* [Vega Explorer](https://explorer.vega.trading) (hosted on Netlify)
+* [Vega Explorer on GitHub]()
+ 
+We feel the greatest hackathon teams are often made up of multi-discipline groups, UX and UI designers can unite with code developers to create tools of beauty - and with this bounty we invite you to do just that. Please present Vega transaction data with design flair as well as consistency.
+
 #### BOUNTY CRITERIA
 
 In addition to the overall Judging Criteria, for this bounty, we'd love you to try and achieve the following:
 
-* **Learning of the concepts of LP on Vega**
-* **Place an LP order on the Tesla XX market using a bot**
-* **Ability to manage your LP order programmatically and update positions**
-* **Implement a market-neutral market making strategy**
-* **Demonstrate the code and strategy running on the Vega testnet**
+* **Learning of data structures and transaction commands on Vega**
+* **Report blockchain data on transactions from Tendermint**
+* **Report Vega state data from data nodes, this might include:**<br/>**Markets, Orders, Trades, Accounts, Assets, Parties, Withdrawals, Deposits**
+* **Validator statistics and staking information**
+* **Demonstrate the web app running on the Vega testnet**
 * **Write clean and understandable code**
+* **Documention for the app to help future developers**
+
 
 #### LINKS & RESOURCES FOR THIS BOUNTY
 
@@ -94,7 +111,7 @@ A block explorer is a tool to view information on all transactions that have tak
 
 Liquidity Provision (LP) is on one of the central concepts of Vega. So for this challenge, winning bounty awards will go to the teams that create the most impressive LP bots (also commonly known as Market Making bots!). 
 
-Vega aims to bring decentralised derivatives trading to anyone on earth by making market creation permissionless. There’s one gotchya though: those markets will only be truly useful if their participants can trade there with sufficient liquidity. That’s why liquidity incentives have always taken a prominent part in the design of the protocol. They are built so that markets can operate with sufficient liquidity at all times and structured in such a way that market makers should find it attractive to support even the nascent markets that haven’t been traded anywhere else yet.
+Vega aims to bring decentralised derivatives trading to anyone on earth by making market creation permissionless. There’s one gotcha though: those markets will only be truly useful if their participants can trade there with sufficient liquidity. That’s why liquidity incentives have always taken a prominent part in the design of the protocol. They are built so that markets can operate with sufficient liquidity at all times and structured in such a way that market makers should find it attractive to support even the nascent markets that haven’t been traded anywhere else yet.
 
 After learning about the LP concepts on Vega, teams will need to research and code one or more bots following a market neutral strategy against a [specific Vega network](#important-setup-and-test-market-information) chosen by us.
 
