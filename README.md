@@ -54,7 +54,7 @@ For Vega networks, all transactions and state changes should be transparent to t
 
 The Vega engineering team have built a very simplistic web based implementation of an explorer to give you inspiration, as well as a reference for decoding transactions. Whilst fun to play with and learn from, we'd recommend starting from scratch with React or similar - rather than simply forking this repo!
 
-<img width="843" alt="block-explorer" src="https://user-images.githubusercontent.com/149245/152604768-69ac788c-d81f-422c-a8fa-bf57a2b071de.png">
+<a href="https://explorer.vega.trading"><img width="843" alt="block-explorer" src="https://user-images.githubusercontent.com/149245/152604768-69ac788c-d81f-422c-a8fa-bf57a2b071de.png"></a>
 
 This app is built with Svelte, and uses Golang code to decode signed Vega transactions from within blocks on the Vega Fairground Testnet. Shout out to @edd and the team!
 
@@ -167,11 +167,7 @@ In addition to the overall Judging Criteria, for this bounty, we'd love you to t
 * **Demonstrate the code and strategy running on the Vega testnet**
 * **Write clean and understandable code**
 
-#### RECOMMENDED GUIDES & WORKSHOP VIDEOS
-
-* How to sign transactions with Vega Wallet 
-* How to submit liquidity provisions on Vega
-* How to deposit and withdraw ERC-20 assets on Vega
+#### RELATED WORKSHOP VIDEOS
 
 [![Watch the video](https://img.youtube.com/vi/BfbveVQpz3c/maxresdefault.jpg)](https://youtu.be/BfbveVQpz3c)
 **VIDEO:** `Vega Testnet Jam - Liquidity Provision (with David Siska)`
@@ -179,8 +175,11 @@ In addition to the overall Judging Criteria, for this bounty, we'd love you to t
 [![Watch the video](https://img.youtube.com/vi/b8FO1rlaFqg/maxresdefault.jpg)](https://youtu.be/b8FO1rlaFqg)
 **VIDEO:** `Vega Community Call #6 - Introducing Liquidity (with Barney Mannerings)`
 
-#### MORE LINKS & RESOURCES FOR THIS BOUNTY
+#### RESOURCES FOR THIS BOUNTY
 
+* How to sign transactions with Vega Wallet 
+* How to submit liquidity provisions on Vega
+* How to deposit and withdraw ERC-20 assets on Vega
 * **[Vega](https://vega.xyz)**
 * **[Documentation](https://docs.vega.xyz)**
 
