@@ -4,7 +4,7 @@
 
 # VEGA ETH Denver Hackathon Launchpad
 
-### Thinking of participating in the ETH Denver 2022 hackathon and working on one of the Vega bounties? Well, you're in the right place. The launchpad gives detailed information on each of the bounty challenges, the project, Vega networks and more.
+### Thinking of participating in the ETH Denver 2022 hackathon and working on one of the Vega bounties? Well, you're in the right place. The launchpad gives detailed information on each of the bounty challenges, the project, sample code and more.
 
 
 ## What is Vega?
@@ -30,7 +30,7 @@ Note: Each bounty brief also contains a list of more detailed pointers to help g
 
 # 1 - Build a Vega block explorer
 
-### PRIZES: IN-PERSON **$2500** USDT (winner)  **$1250** USDT (runner-up)  VIRTUAL **$2500** USDT (winner)  **$1250** USDT (runner-up)
+### PRIZES:<br>IN-PERSON **$2500** USDT (winner)  **$1250** USDT (runner-up)<br>VIRTUAL **$2500** USDT (winner)  **$1250** USDT (runner-up)
 
 The winning bounty awards will go to the best teams that create or extend a block explorer to report and visualise blockchain transaction data as well as any Vega state changes queried from a data node.
 
@@ -42,9 +42,27 @@ The goal for this bounty is to build a visual block explorer that shows the tran
 
 [MORE HERE]
 
+
+#### THINGS WE'RE LOOKING FOR
+
+* Learning of the concepts of LP on Vega
+* Creation of clean and understandable code 
+* Application of a market-neutral or similar market making strategy
+* Ability to demonstrate the code and strategy running on a Vega testnet market
+* STRETCH GOAL: demonstrate profitability :)  
+
+
+#### LINKS & RESOURCES FOR THIS BOUNTY
+
+* **[Vega](https://vega.xyz)**
+* **[Documentation](https://docs.vega.xyz)**
+
+For more help please see the General Support & Resources section.
+
+
 # 2 - Visualise staking and delegation on Vega networks
 
-### PRIZES: IN-PERSON **$2500** USDT (winner)  **$1250** USDT (runner-up)  VIRTUAL **$2500** USDT (winner)  **$1250** USDT (runner-up)
+### PRIZES:<br>IN-PERSON **$2500** USDT (winner)  **$1250** USDT (runner-up)<br>VIRTUAL **$2500** USDT (winner)  **$1250** USDT (runner-up)
 
 The winning bounty awards will go to the teams that create the most impressive apps that can track, store and visualise staking and delegation on Vega. These tools should help the Vega community to keep the network safe and decentralised by informing others about the state of the network, as well as educating on staking fundamentals with respect to Vega.
 
@@ -61,7 +79,7 @@ The app should be open source and easy to demonstrate, with a walkthrough video 
 
 # 3 - Create Vega Liquidity Provision (LP) Bots
 
-### PRIZES: IN-PERSON **$2500** USDT (winner)  **$1250** USDT (runner-up)  VIRTUAL **$2500** USDT (winner)  **$1250** USDT (runner-up)
+### PRIZES:<br>IN-PERSON **$2500** USDT (winner)  **$1250** USDT (runner-up)<br>VIRTUAL **$2500** USDT (winner)  **$1250** USDT (runner-up)
 
 Liquidity Provision (LP) is on one of the central concepts of Vega. So for this challenge, winning bounty awards will go to the teams that create the most impressive LP bots (also commonly known as Market Making bots!). 
 
@@ -74,9 +92,6 @@ The bot code should be open source and easy to demonstrate to the Vega judges. T
 #### WHAT IS A MARKET MAKER?
 
 Your role as a market maker will be to supply orders to both sides of the order book (buy and sell). Your orders sitting on the book earn fees as they get hit resulting in trades. You also get a portion of the liquidity fee from all trades in that market. However, your bot needs to efficiently manage it’s positions as your overall goal is to just make profit on the fees while remaining market neutral in the long run. You don’t want to amass a significant position - neither long (lots of buy orders) nor short (lots of sell orders) - as the market can always go against you in the future spoiling your hard earned fee riches.  
-
-
-
 
 #### LIQUIDITY PROVISION MECHANICS
 
@@ -110,19 +125,30 @@ Don’t worry if all of this sounds rather complicated, there will be an opportu
 
 Throughout the hackathon all the participants will have access to a test network running a custom futures market. You won’t be alone though, there will be various bots operating on it in order to make it more like a live market.
 
-This market is called 'XXX' and you will need to request a wallet with the asset 'ZZZ' by doing YYY. 
+This market is called 'Tesla quarterly' and you will need to deposit the Ropsten ERC-20 test asset tEURO to a Vega Wallet in order to place liquidity orders.
 
+#### BOUNTY CRITERIA
 
-#### WHAT WE'RE LOOKING FOR
+* **Learning of the concepts of LP on Vega**
+* Place an LP order on the Tesla XX market using a bot
+* Ability to manage your LP order programmatically and update positions
+* Implement a market-neutral market making strategy
+* Demonstrate the code and strategy running on the Vega testnet
+* Write clean and understandable code 
 
-* Learning of the concepts of LP on Vega
-* Creation of clean and understandable code 
-* Application of a market-neutral or similar market making strategy
-* Ability to demonstrate the code and strategy running on a Vega testnet market
-* STRETCH GOAL: demonstrate profitability :)  
+#### RECOMMENDED GUIDES & WORKSHOP VIDEOS
 
+* How to sign transactions with Vega Wallet 
+* How to submit liquidity provisions on Vega
+* How to deposit and withdraw ERC-20 assets on Vega
 
-#### LINKS & RESOURCES FOR THIS BOUNTY
+[![Watch the video](https://img.youtube.com/vi/BfbveVQpz3c/maxresdefault.jpg)](https://youtu.be/BfbveVQpz3c)
+`Vega Testnet Jam - Liquidity Provision (with David Siska)`
+
+[![Watch the video](https://img.youtube.com/vi/b8FO1rlaFqg/maxresdefault.jpg)](https://youtu.be/b8FO1rlaFqg)
+`Vega Community Call #6 - Introducing Liquidity (with Barney Mannerings)`
+
+#### MORE LINKS & RESOURCES FOR THIS BOUNTY
 
 * **[Vega](https://vega.xyz)**
 * **[Documentation](https://docs.vega.xyz)**
@@ -131,7 +157,7 @@ This market is called 'XXX' and you will need to request a wallet with the asset
 # 4 - Interact with Vega in your Favorite Spreadsheet
 
 
-### Prizes: IN-PERSON **$2500** USDT (winner)  **$1250** USDT (runner-up)  VIRTUAL **$2500** USDT (winner)  **$1250** USDT (runner-up)
+### PRIZES:<br>IN-PERSON **$2500** USDT (winner)  **$1250** USDT (runner-up)<br>VIRTUAL **$2500** USDT (winner)  **$1250** USDT (runner-up)
 
 The winning award will go to the team that offers the most amazing community plugin for interacting with Vega data via a spreadsheet, you’ll be building for Google Sheets or Microsoft Excel. 
 
@@ -143,12 +169,12 @@ The plugin should be open source and easy to demonstrate, with a walkthrough vid
 
 [MORE HERE]
 
-## Supporting Resources
+# General Support & Resources
 
-* Please visit us on the SporkDAO discord server channel: **`Presenting Sponsors > #vega`** 
+* **Please visit us on the SporkDAO discord server channel:** `Presenting Sponsors > #vega`
 * [Vega at ETH Denver](https://vega.xyz/ethdenver/) - Events and information for workshops, events and talks during the conference.
-* [Sample API Scripts](https://github.com/vegaprotocol/sample-api-scripts/) - How to sample API scripts for many of the features on Vega in Python and more.
-* https://docs.fairground.vega.xyz
+* [Fairground Testnet documentation](https://docs.fairground.vega.xyz) - Guides, documentation, code snippets on integrating with Vega using the Fairground network.
+* [Vega Sample API Scripts](https://github.com/vegaprotocol/sample-api-scripts/) - How to example API scripts for many of the features on Vega, in Python and more.
 * https://console.fairground.wtf
 * https://fairground.wtf
 * https://vega.xyz/discord
