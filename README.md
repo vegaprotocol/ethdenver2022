@@ -85,9 +85,11 @@ Liquidity Provision (LP) is on one of the central concepts of Vega. So for this 
 
 Vega aims to bring decentralised derivatives trading to anyone on earth by making market creation permissionless. There’s one gotchya though: those markets will only be truly useful if their participants can trade there with sufficient liquidity. That’s why liquidity incentives have always taken a prominent part in the design of the protocol. They are built so that markets can operate with sufficient liquidity at all times and structured in such a way that market makers should find it attractive to support even the nascent markets that haven’t been traded anywhere else yet.
 
-After learning about the LP concepts on Vega, teams will need to research and code one or more bots following a market neutral strategy against a specific Vega network chosen by us**.** 
+After learning about the LP concepts on Vega, teams will need to research and code one or more bots following a market neutral strategy against a [specific Vega network](#important-setup-and-test-market-information) chosen by us.
 
 The bot code should be open source and easy to demonstrate to the Vega judges. The solution needs to show good understanding of core concepts of Vega. It should be easy to differentiate between the components dealing with API integration and the market making logic. The code should be clean and well written with installation instructions provided.
+
+See the section [Bounty Criteria](#bounty-criteria) below for the tasks and features we're hoping you can try and deliver for this bounty brief.
 
 #### WHAT IS A MARKET MAKER?
 
@@ -119,7 +121,7 @@ If at any point in time orders maintained by your bot don’t cover the liquidit
 
 Splitting your funds wisely between the commitment amount and other funds to actually support orders required to meet it is another skill you have to master. 
 
-Don’t worry if all of this sounds rather complicated, there will be an opportunity to attend the workshop [Programming Liquidity on Vega Futures Markets](https://linktoschedule/) where the Vega team will demonstrate some of these concepts to you in more detail!
+Don’t worry if all of this sounds rather complicated, in addition to the video guides and walk-throughs listed below, there will be an opportunity to attend the workshop [Programming Liquidity on Vega Futures Markets](https://linktoschedule/) where the Vega team will demonstrate some of these concepts to you in more detail :brain:
 
 #### IMPORTANT SETUP AND TEST MARKET INFORMATION
 
@@ -129,12 +131,14 @@ This market is called 'Tesla quarterly' and you will need to deposit the Ropsten
 
 #### BOUNTY CRITERIA
 
+In addition to the overall Judging Criteria, for this bounty, we'd love you to try and achieve the following:
+
 * **Learning of the concepts of LP on Vega**
-* Place an LP order on the Tesla XX market using a bot
-* Ability to manage your LP order programmatically and update positions
-* Implement a market-neutral market making strategy
-* Demonstrate the code and strategy running on the Vega testnet
-* Write clean and understandable code 
+* **Place an LP order on the Tesla XX market using a bot**
+* **Ability to manage your LP order programmatically and update positions**
+* **Implement a market-neutral market making strategy**
+* **Demonstrate the code and strategy running on the Vega testnet**
+* **Write clean and understandable code**
 
 #### RECOMMENDED GUIDES & WORKSHOP VIDEOS
 
