@@ -1,7 +1,5 @@
 <img width="1439" alt="ethdenver-2022-header" src="https://user-images.githubusercontent.com/149245/151204295-840df036-c96b-4723-8943-42a73c1bf4a0.png">
 
-
-
 # VEGA ETHDenver Hackathon Launchpad
 
 ### Thinking of participating in the ETHDenver 2022 hackathon and working on one of the Vega bounties? Well, you're in the right place. The launchpad gives detailed information on each of the bounty challenges, the project, sample code and more.
@@ -56,12 +54,12 @@ For Vega networks, all transactions and state changes should be transparent to t
 
 The Vega engineering team have built a very simplistic web based implementation of an explorer to give you inspiration, as well as a reference for decoding transactions. Whilst fun to play with and learn from, we'd recommend starting from scratch with React or similar - rather than simply forking this repo!
 
-[IMG]
+<img width="843" alt="block-explorer" src="https://user-images.githubusercontent.com/149245/152604768-69ac788c-d81f-422c-a8fa-bf57a2b071de.png">
 
 This app is built with Svelte, and uses Golang code to decode signed Vega transactions from within blocks on the Vega Fairground Testnet. Shout out to @edd and the team!
 
-* [Vega Explorer](https://explorer.vega.trading) (hosted on Netlify)
-* [Vega Explorer on GitHub]()
+* [Vega Explorer](https://explorer.vega.trading) (hosted on Netlify, attached to Fairground)
+* [Vega Explorer on GitHub](https://github.com/vegaprotocol/explorer)
  
 We feel the greatest hackathon teams are often made up of multi-discipline groups, UX and UI designers can unite with code developers to create tools of beauty - and with this bounty we invite you to do just that. Please present Vega transaction data with design flair as well as consistency.
 
@@ -77,6 +75,7 @@ In addition to the overall Judging Criteria, for this bounty, we'd love you to t
 * **Write clean and understandable code**
 * **Documention for the app to help future developers**
 
+There's room for plenty of stretch goals with this bounty, dont hesitate to reach out to us on Discord or in-person to learn more.
 
 #### LINKS & RESOURCES FOR THIS BOUNTY
 
