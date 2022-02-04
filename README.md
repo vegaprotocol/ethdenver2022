@@ -97,11 +97,19 @@ For the Fairground Testnet, there’s a minimal amount of information describing
 
 We’re sure you can take this data further, so we are looking for a solution that is ideally a web app, with a simple yet beautiful user interface that shows the state of staking and delegation to a network of Vega validators. From a user experience and design perspective we’re hoping to see novel interactive ways to represent distribution of stake and educational information messages to help guide token holders when choosing where to delegate their stake on a network. 
 
-The app should be open source and easy to demonstrate, extra kudos for including a walkthrough video showing all features implemented. Installation instructions must be given.
+The app should be open source and easy to demonstrate, extra kudos for including a walkthrough video showing all features implemented. Installation instructions must be provided.
+
+See the section [Bounty Criteria](#bounty-criteria-1) below for the tasks and features we're hoping you can try and deliver for this bounty brief.
 
 #### WHAT IS A BLOCK EXPLORER?
 
 A block explorer is a tool to view information on all transactions that have taken place on a blockchain. Typically a block explorer will show key information about the chain, for example, the current network hash rate, validator statistics, activity on blockchain addresses and other useful information. You can think of it as a window into the blockchain world, giving you the opportunity to observe what’s happening on it - live and in near real time. Popular Ethereum block explorers include Etherscan, Etherchain and blockscout. 
+
+#### BOUNTY CRITERIA
+
+In addition to the overall Judging Criteria, for this bounty, we'd love you to try and achieve the following:
+
+* **Learning of data structures and transaction commands on Vega**
 
 
 # 3 - Create Vega Liquidity Provision (LP) Bots
@@ -116,7 +124,7 @@ After learning about the LP concepts on Vega, teams will need to research and co
 
 The bot code should be open source and easy to demonstrate to the Vega judges. The solution needs to show good understanding of core concepts of Vega. It should be easy to differentiate between the components dealing with API integration and the market making logic. The code should be clean and well written with installation instructions provided.
 
-See the section [Bounty Criteria](#bounty-criteria) below for the tasks and features we're hoping you can try and deliver for this bounty brief.
+See the section [Bounty Criteria](#bounty-criteria-2) below for the tasks and features we're hoping you can try and deliver for this bounty brief.
 
 #### WHAT IS A MARKET MAKER?
 
@@ -195,9 +203,17 @@ Inspired by projects like "Cryptosheets.com" and the team's general love for all
 
 The goal is to provide simple and easy to understand visual access to data from a Vega network, with powerful features that are currently only exposed by applications like https://console.fairground.wtf or direct via API scripts.
 
-The plugin should be open source and easy to demonstrate, with a walkthrough video showing all features implemented. Installation instructions must be given.
+The plugin should be open source and easy to demonstrate, with a walkthrough video and a helpful installation guide showing how to add the plugin.
 
-[MORE HERE]
+See the section [Bounty Criteria](#bounty-criteria-3) below for the tasks and features we're hoping you can try and deliver for this bounty brief.
+
+#### BOUNTY CRITERIA
+
+In addition to the overall Judging Criteria, for this bounty, we'd love you to try and achieve the following:
+
+* **Learning of data structures and transaction commands on Vega**
+
+
 
 # General Support & Resources
 
