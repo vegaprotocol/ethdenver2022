@@ -121,13 +121,14 @@ There are a handful of community tools/UIs that have been built to show staking 
 
 <br/>
 <a href="https://ryabina.retool.com/embedded/public/9567cc8a-832e-4978-b30f-0251929fde96" target="_blank"><img width="843" src="https://user-images.githubusercontent.com/149245/152829660-62d08e29-8c51-4eea-9640-d1a9380bed9b.png"></a>
+
 **LINK:** `VEGA Dashboard - Ryabina (validator)`
 
 #### BOUNTY CRITERIA
 
 In addition to the overall Judging Criteria, for this bounty, we'd love you to try and achieve the following:
 
-* **Learning of data structures and transaction commands on Vega**
+* **Learning of DPOS concepts, APIs and application on Vega**
 
 
 # 3 - Create Vega Liquidity Provision (LP) Bots
