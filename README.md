@@ -128,7 +128,8 @@ There are a handful of community tools/UIs that have been built to show staking 
 
 In addition to the overall Judging Criteria, for this bounty, we'd love you to try and achieve the following:
 
-* **Learning of DPOS concepts, APIs and application on Vega**
+* **Learning of DPOS on Vega and related APIs**
+* **Design a novel user interface to show key information on staking on Vega**
 
 
 # 3 - Create Vega Liquidity Provision (LP) Bots
