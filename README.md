@@ -52,7 +52,7 @@ For Vega networks, all transactions and state changes should be transparent to t
 
 #### INSPIRATION
 
-The Vega engineering team have built a very simplistic web based implementation of an explorer to give you inspiration, as well as a reference for decoding transactions. Whilst fun to play with and learn from, we'd recommend starting from scratch with React or similar - rather than simply forking this repo!
+The Vega engineers have built a very simplistic web based implementation of a block explorer to give you inspiration, as well as a reference for decoding transactions. **Whilst fun to play with and learn from, we'd recommend starting from scratch with React or similar - rather than simply forking this repo!**
 
 <a href="https://explorer.vega.trading"><img width="843" alt="block-explorer" src="https://user-images.githubusercontent.com/149245/152604768-69ac788c-d81f-422c-a8fa-bf57a2b071de.png"></a>
 
@@ -110,6 +110,14 @@ Representatives are typically referred to as validators. Users can delegate toke
 The particular voting power of a validator is proportional to the number of tokens that have been delegated to them. In return for their help in securing the network, validators are awarded a percentage of the staking rewards earned by delegators within the network.
 
 The number of nodes that can form a new block is smaller compared to traditional proof of stake which enables faster block creation times and overall faster transactions per second (TPS). These features are quite desirable when designing distributed financial trading systems, and therefore is currently employed within Vega.
+
+
+#### INSPIRATION
+
+There are a handful of UIs that have been built that show staking and delegation data from Vega networks:
+
+<a href="https://explorer.vega.trading"><img width="843" alt="block-explorer" src="https://user-images.githubusercontent.com/149245/152604768-69ac788c-d81f-422c-a8fa-bf57a2b071de.png"></a>
+
 
 #### BOUNTY CRITERIA
 
