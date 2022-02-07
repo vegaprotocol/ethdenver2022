@@ -234,6 +234,8 @@ In addition to the overall Judging Criteria, for this bounty, we'd love you to t
 
 # General Support & Resources
 
+We're an exciting DEFI / blockchain project with a vibrant testnet on which we're adding new features all the time. Therefore, we'd love anyone interested in completing our ETHDenver bounties to get to know our platform first. We feel it is very important for you test out the platform, check out our documentation and understand the way the protocol works to complete our bounties to a high standard. We aim to be friendly and helpful, so don't be afraid to ask questions on Discord or in person.
+
 * **Please visit us on the SporkDAO discord server channel:** `Presenting Sponsors > #vega`
 * [Vega at ETH Denver](https://vega.xyz/ethdenver/) - Events and information for workshops, events and talks during the conference.
 * [Fairground Testnet documentation](https://docs.fairground.vega.xyz) - Guides, documentation, code snippets on integrating with Vega using the Fairground network.
@@ -243,9 +245,4 @@ In addition to the overall Judging Criteria, for this bounty, we'd love you to t
 * https://vega.xyz/discord
 * https://vega.xyz/papers/vega-protocol-whitepaper.pdf
 
-
-# Familiarity with Vega
-
-We're an exciting blockchain project with a recently launched public testnet, we're adding new features all the time therefore we'd love anyone interested in completing our ETHDenver bounties to get to know our platform first. We feel it is very important for you test out the platform, check out our documentation and understand the way the protocol works to complete our bounties to a high standard. We aim to be friendly and helpful, so don't be afraid to ask questions on Discord or in person.
-
-
+<img src="https://github.com/vegaprotocol/brand/raw/main/1-Vega-Brand-Basics/1G-Hixel/Vega_Hixel_Black.png" width="30%" />
