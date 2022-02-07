@@ -13,7 +13,7 @@ Why derivatives? Because they are an essential class of instruments for any fina
 
 Through a rich set of APIs, developers can build on top of Vega. Platform engineers can plug into trading data and order flow with CEX-like ease. Front-end hackers can create immersive web, mobile or desktop applications rich with real-time data, for example Vega Console: A Javascript application built with React which makes heavy use of the GraphQL API.
 
-Vega believes that the web3 community can help build the future of DEFI derivatives trading software. We're super excited to see what you come up with during the hackathon.
+Vega believes that the web3 community can help build the future of DEFI derivatives. We're super excited to see what you come up with during the hackathon.
 
 ## Judging Criteria
 
@@ -101,9 +101,15 @@ The app should be open source and easy to demonstrate, extra kudos for including
 
 See the section [Bounty Criteria](#bounty-criteria-1) below for the tasks and features we're hoping you can try and deliver for this bounty brief.
 
-#### WHAT IS A BLOCK EXPLORER?
+#### WHAT IS DELEGATED PROOF OF STAKE (DPOS)?
 
-A block explorer is a tool to view information on all transactions that have taken place on a blockchain. Typically a block explorer will show key information about the chain, for example, the current network hash rate, validator statistics, activity on blockchain addresses and other useful information. You can think of it as a window into the blockchain world, giving you the opportunity to observe what’s happening on it - live and in near real time. Popular Ethereum block explorers include Etherscan, Etherchain and blockscout. 
+Delegated Proof of Stake (DPOS) protocols are often thought to be a more democratic than traditional Proof of Stake consensus designs. DPOS users are able to vote on delegates who will help to secure the network. Delegators act as the individuals within a democratic governance system who vote on electing representatives. 
+
+Representatives are typically referred to as validators. Users can delegate tokens to nodes operated by validators in order to reduce the time and cost required for the block generation agreement.
+
+The particular voting power of a validator is proportional to the number of tokens that have been delegated to them. In return for their help in securing the network, validators are awarded a percentage of the staking rewards earned by delegators within the network.
+
+The number of nodes that can form a new block is smaller compared to traditional proof of stake which enables faster block creation times and overall faster transactions per second (TPS). These features are quite desirable when designing distributed financial trading systems, and therefore is currently employed within Vega.
 
 #### BOUNTY CRITERIA
 
@@ -211,8 +217,19 @@ See the section [Bounty Criteria](#bounty-criteria-3) below for the tasks and fe
 
 In addition to the overall Judging Criteria, for this bounty, we'd love you to try and achieve the following:
 
-* **Learning of data structures and transaction commands on Vega**
-
+* **Learning of the concepts, APIs and design of Vega**
+* **Choose either Google Sheets or Microsoft Excel as the spreadsheet client to work with.**
+* **Connect to Vega's APIs (REST, gRPC or GraphQL) from the spreadsheet client in order to load and display testnet (or mainnet) data in the spreadsheet. Note: It is recommended to make the node to connect to customisable (for example, on testnet there are several geo-located API nodes).**
+* **Potential views/operations* to include:**
+  * **Markets and market data**
+  * **Governance proposals and voting data**
+  * **Staking and delegation data**
+  * **Party (for a public key) data, including orders, positions and trades**
+  * **Last n trades and last n orders on a market**
+  * **Vega network statistics**
+  * **Advanced: Log in to wallet and place/amend/cancel orders on a market**
+  * **Advanced: Candle data / charts**
+  * **Advanced: Liquidity provision (LP) data****
 
 
 # General Support & Resources
@@ -225,5 +242,10 @@ In addition to the overall Judging Criteria, for this bounty, we'd love you to t
 * https://fairground.wtf
 * https://vega.xyz/discord
 * https://vega.xyz/papers/vega-protocol-whitepaper.pdf
+
+
+# Familiarity with Vega
+
+We're an exciting blockchain project with a recently launched public testnet, we're adding new features all the time therefore we'd love anyone interested in completing our ETHDenver bounties to get to know our platform first. We feel it is very important for you test out the platform, check out our documentation and understand the way the protocol works to complete our bounties to a high standard. We aim to be friendly and helpful, so don't be afraid to ask questions on Discord or in person.
 
 
