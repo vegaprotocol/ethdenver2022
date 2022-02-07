@@ -116,11 +116,10 @@ The number of nodes that can form a new block is smaller compared to traditional
 
 There are a handful of community tools/UIs that have been built to show staking and delegation data from Vega networks, use these as help but we strongly believe you can go further with your challenge submissions:
 
-<img width="843" alt="block-explorer" src="https://user-images.githubusercontent.com/149245/152604768-69ac788c-d81f-422c-a8fa-bf57a2b071de.png"></a>
-
 <a href="https://stake.nodes.guru/vega/world" target="_blank"><img width="843" src="https://user-images.githubusercontent.com/149245/152829604-d1eaee6f-9dbc-4cc8-b876-7dbc8001daaa.png"></a>
 **LINK:** `VEGA Staking World - Nodes.guru (validator)`
 
+<br/>
 <a href="https://ryabina.retool.com/embedded/public/9567cc8a-832e-4978-b30f-0251929fde96" target="_blank"><img width="843" src="https://user-images.githubusercontent.com/149245/152829660-62d08e29-8c51-4eea-9640-d1a9380bed9b.png"></a>
 **LINK:** `VEGA Dashboard - Ryabina (validator)`
 
