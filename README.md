@@ -220,7 +220,7 @@ In addition to the overall Judging Criteria, for this bounty, we'd love you to t
 * **Learning of the concepts, APIs and design of Vega**
 * **Choose either Google Sheets or Microsoft Excel as the spreadsheet client to work with.**
 * **Connect to Vega's APIs (REST, gRPC or GraphQL) from the spreadsheet client in order to load and display testnet (or mainnet) data in the spreadsheet. Note: It is recommended to make the node to connect to customisable (for example, on testnet there are several geo-located API nodes).**
-* **Potential views/operations* to include:**
+* <strong>Potential views/operations* to include:</strong>
   * **Markets and market data**
   * **Governance proposals and voting data**
   * **Staking and delegation data**
@@ -229,7 +229,7 @@ In addition to the overall Judging Criteria, for this bounty, we'd love you to t
   * **Vega network statistics**
   * **Advanced: Log in to wallet and place/amend/cancel orders on a market**
   * **Advanced: Candle data / charts**
-  * **Advanced: Liquidity provision (LP) data****
+  * **Advanced: Liquidity provision (LP) data**
 
 
 # General Support & Resources
