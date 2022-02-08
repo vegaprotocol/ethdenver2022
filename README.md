@@ -24,7 +24,7 @@ This year at ETH Denver, we'll be judging bounties with the following criteria:
 * **Technicality and coding style**
 * **Completeness and delivery of features given in the brief**
 
-Note: Each bounty brief also contains a list of more detailed pointers to help guide you towards the ideal solution we're looking for - look out for 'Bounty Criteria' at the bottom of each brief. 
+Note: Each bounty brief also contains a list of more detailed pointers to help guide you towards the ideal solution we're looking for - look out for 'Bounty Criteria' at the bottom of each brief. All prizes are mirrored 50/50 between in-person and virtual hackathons (as shown).
 
 ### Happy Buidling!
 
@@ -83,8 +83,9 @@ There's room for plenty of stretch goals with this bounty, dont hesitate to reac
 * **[Fairground API documentation](https://docs.testnet.vega.xyz/docs/apis/block-decoder/)** - Tendermint and Block explorer (Block Decoder API)
 * **[Fairground API how-to guides](https://docs.fairground.vega.xyz/docs/api-howtos/)** - Getting started, data node and state queries
 * **[Vega API Documentation](https://docs.vega.xyz/api/overview/)** - Wallet, gRPC, GraphQL and REST documentation
+* **[Vega Explorer](https://github.com/vegaprotocol/explorer)** - Supporting code repo to help understand and interact with Vega transactions, see Block Decoder. *Note: you can port this logic to your own language/app ;)* 
 
-For more help please see the General Support & Resources section.
+For more help please see the General Support & Resources section or reach out to us on our social channels.
 
 
 # 2 - Visualise staking and delegation on Vega networks
@@ -133,6 +134,19 @@ In addition to the overall Judging Criteria, for this bounty, we'd love you to t
 * **Learning of DPOS on Vega and related APIs**
 * **Design a novel user interface to show key information on staking on Vega**
 
+There's room for plenty of stretch goals with this bounty, dont hesitate to reach out to us on Discord or in-person to learn more.
+
+#### LINKS & RESOURCES FOR THIS BOUNTY
+
+* **[Tendermint dPOS vs EOS dPOS](https://blog.cosmos.network/consensus-compare-tendermint-bft-vs-eos-dpos-46c5bca7204b)** - Describes in more detail the concepts of Tendermint DPOS
+* **[Fairground API documentation](https://docs.testnet.vega.xyz/docs/apis/)** - Information on testnet including choosing an API (if you want streaming on a front end client, go for GraphQL)
+* **[Fairground API how-to guides](https://docs.fairground.vega.xyz/docs/api-howtos/)** - Getting started, data node and state queries
+* **[Vega API Documentation](https://docs.vega.xyz/api/overview/)** - Wallet, gRPC, GraphQL and REST documentation
+* **[Vega Token Frontend UI](https://github.com/vegaprotocol/token-frontend)** - Github repo containing the code for `https://token.fairground.wtf`, a UI/dAPP for staking and delegation (amongst other features)
+* **[Vega API samples](https://github.com/vegaprotocol/sample-api-scripts)** - Collection of sample API scripts and queries to help you get started coding 
+* **[How to use GitPod](https://docs.fairground.vega.xyz/docs/api-howtos/getting-started/#introducing-gitpod-to-run-code-samples)** - Experiment with Vega sample API scripts in a browser environment
+
+For more help please see the General Support & Resources section or reach out to us on our social channels.
 
 # 3 - Create Vega Liquidity Provision (LP) Bots
 
@@ -207,11 +221,14 @@ In addition to the overall Judging Criteria, for this bounty, we'd love you to t
 
 #### RESOURCES FOR THIS BOUNTY
 
-* How to sign transactions with Vega Wallet 
-* How to submit liquidity provisions on Vega
-* How to deposit and withdraw ERC-20 assets on Vega
-* **[Vega](https://vega.xyz)**
-* **[Documentation](https://docs.vega.xyz)**
+* [How to sign transactions with Vega Wallet]() 
+* [How to submit liquidity provisions on Vega]()
+* [How to deposit and withdraw ERC-20 assets on Vega]()
+* **[Fairground API documentation](https://docs.testnet.vega.xyz/docs/apis/)** - Information on testnet including choosing an API (if you want streaming support for your bot, go for gRPC or GraphQL)
+* **[Fairground API how-to guides](https://docs.fairground.vega.xyz/docs/api-howtos/)** - Getting started, data node and state queries
+* **[Vega API Documentation](https://docs.vega.xyz/api/overview/)** - Wallet, gRPC, GraphQL and REST documentation
+
+For more help please see the General Support & Resources section or reach out to us on our social channels.
 
 
 # 4 - Interact with Vega in your Favorite Spreadsheet
@@ -256,23 +273,27 @@ There's room for plenty of stretch goals with this bounty, dont hesitate to reac
 
 #### LINKS & RESOURCES FOR THIS BOUNTY
 
-* **[Fairground API documentation](https://docs.testnet.vega.xyz/docs/apis/block-decoder/)** - Tendermint and Block explorer (Block Decoder API)
+* **[Fairground API documentation](https://docs.testnet.vega.xyz/docs/apis/)** - Information on testnet including choosing an API (if you want streaming on a front end client, go for GraphQL)
 * **[Fairground API how-to guides](https://docs.fairground.vega.xyz/docs/api-howtos/)** - Getting started, data node and state queries
 * **[Vega API Documentation](https://docs.vega.xyz/api/overview/)** - Wallet, gRPC, GraphQL and REST documentation
+* **[Vega Console walk-through](https://youtu.be/C0_Uh8_HvDc)** - Recording/video showing how to use Console, a UI/dApp for Vega markets
+* **[Vega API samples](https://github.com/vegaprotocol/sample-api-scripts)** - Collection of sample API scripts and queries to help you get started coding 
+* **[How to use GitPod](https://docs.fairground.vega.xyz/docs/api-howtos/getting-started/#introducing-gitpod-to-run-code-samples)** - Experiment with Vega sample API scripts in a browser environment
 
-For more help please see the General Support & Resources section.
+For more help please see the General Support & Resources section below or reach out to us on our social channels.
 
 # General Support & Resources
 
 We're an exciting DEFI / blockchain project with a vibrant testnet on which we're adding new features all the time. Therefore, we'd love anyone interested in completing our ETHDenver bounties to get to know our platform first. We feel it is very important for you test out the platform, check out our documentation and understand the way the protocol works to complete our bounties to a high standard. We aim to be friendly and helpful, so don't be afraid to ask questions on Discord or in person.
 
-* **Please visit us on the SporkDAO discord server channel:** `Presenting Sponsors > #vega`
+* **Please visit us on the [SporkDAO discord](https://discord.gg/sporkdao) server channel:** `Presenting Sponsors > #vega`
 * [Vega at ETH Denver](https://vega.xyz/ethdenver/) - Events and information for workshops, events and talks during the conference.
 * [Fairground Testnet documentation](https://docs.fairground.vega.xyz) - Guides, documentation, code snippets on integrating with Vega using the Fairground network.
 * [Vega Sample API Scripts](https://github.com/vegaprotocol/sample-api-scripts/) - How to example API scripts for many of the features on Vega, in Python and more.
-* https://console.fairground.wtf
-* https://fairground.wtf
-* https://vega.xyz/discord
-* https://vega.xyz/papers/vega-protocol-whitepaper.pdf
+* [Vega Protocol Specs](https://github.com/vegaprotocol/specs/tree/main/protocol#fundamental-concepts) - Specifications, fundamentals and detailed documentation on the Vega protocol itself (deeper than the whitepaper)
+* [Vega Console on Fairground](https://console.fairground.wtf) - UI/dAPP to interact with trading markets on Vega
+* [Fairground Testnet microsite](https://fairground.wtf) - The official Vega testnet called Fairground, go here to start hacking with Ropsten ERC-20 test assets
+* [Vega Discord](https://vega.xyz/discord) - Official Vega discord, please join and contribute or ask questions from the team
+* [Vega Whitepaper](https://vega.xyz/papers/vega-protocol-whitepaper.pdf]) - The official Vega Protocol whitepaper
 
 <img src="https://github.com/vegaprotocol/brand/raw/main/1-Vega-Brand-Basics/1G-Hixel/Vega_Hixel_Black.png" width="30%" />
