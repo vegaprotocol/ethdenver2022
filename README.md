@@ -74,13 +74,15 @@ In addition to the overall Judging Criteria, for this bounty, we'd love you to t
 * **Demonstrate the web app running on the Vega testnet**
 * **Write clean and understandable code**
 * **Documention for the app to help future developers**
+* **Roadmap for future work**
 
 There's room for plenty of stretch goals with this bounty, dont hesitate to reach out to us on Discord or in-person to learn more.
 
 #### LINKS & RESOURCES FOR THIS BOUNTY
 
-* **[Vega](https://vega.xyz)**
-* **[Documentation](https://docs.vega.xyz)**
+* **[Fairground API documentation](https://docs.testnet.vega.xyz/docs/apis/block-decoder/)** - Tendermint and Block explorer (Block Decoder API)
+* **[Fairground API how-to guides](https://docs.fairground.vega.xyz/docs/api-howtos/)** - Getting started, data node and state queries
+* **[Vega API Documentation](https://docs.vega.xyz/api/overview/)** - Wallet, gRPC, GraphQL and REST documentation
 
 For more help please see the General Support & Resources section.
 
@@ -219,13 +221,17 @@ In addition to the overall Judging Criteria, for this bounty, we'd love you to t
 
 The winning award will go to the team that offers the most amazing community plugin for interacting with Vega data via a spreadsheet, you’ll be building for Google Sheets or Microsoft Excel. 
 
-Inspired by projects like "Cryptosheets.com" and the team's general love for all things spreadsheet, the task for this bounty is to connect the Vega APIs to Google sheets or Microsoft Excel in the form of a plugin/script and provide a set of useful operations e.g. trades for public key, list of markets, place an order, etc. 
+Inspired by projects like "Cryptosheets.com" and the team's general love for all things spreadsheet, the task for this bounty is to connect the Vega APIs to Google sheets or Microsoft Excel in the form of a plugin/add-in/script and provide a set of useful operations e.g. trades for public key, list of markets, place an order, etc. 
 
 The goal is to provide simple and easy to understand visual access to data from a Vega network, with powerful features that are currently only exposed by applications like https://console.fairground.wtf or direct via API scripts.
 
-The plugin should be open source and easy to demonstrate, with a walkthrough video and a helpful installation guide showing how to add the plugin.
+The plugin should be open source and easy to demonstrate, with a walkthrough video and a helpful installation guide showing how to add the plugin/add-in.
 
 See the section [Bounty Criteria](#bounty-criteria-3) below for the tasks and features we're hoping you can try and deliver for this bounty brief.
+
+#### INSPIRATION
+
+[gallery]
 
 #### BOUNTY CRITERIA
 
@@ -245,6 +251,16 @@ In addition to the overall Judging Criteria, for this bounty, we'd love you to t
   * **Advanced: Candle data / charts**
   * **Advanced: Liquidity provision (LP) data**
 
+
+There's room for plenty of stretch goals with this bounty, dont hesitate to reach out to us on Discord or in-person to learn more.
+
+#### LINKS & RESOURCES FOR THIS BOUNTY
+
+* **[Fairground API documentation](https://docs.testnet.vega.xyz/docs/apis/block-decoder/)** - Tendermint and Block explorer (Block Decoder API)
+* **[Fairground API how-to guides](https://docs.fairground.vega.xyz/docs/api-howtos/)** - Getting started, data node and state queries
+* **[Vega API Documentation](https://docs.vega.xyz/api/overview/)** - Wallet, gRPC, GraphQL and REST documentation
+
+For more help please see the General Support & Resources section.
 
 # General Support & Resources
 
