@@ -231,7 +231,7 @@ See the section [Bounty Criteria](#bounty-criteria-3) below for the tasks and fe
 
 #### INSPIRATION
 
-[gallery]
+<img width="843" src="https://user-images.githubusercontent.com/149245/153031035-653ba29c-0bd6-4c61-a6df-5e8f9c04768e.png" />
 
 #### BOUNTY CRITERIA
 
