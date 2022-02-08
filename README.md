@@ -80,6 +80,7 @@ There's room for plenty of stretch goals with this bounty, dont hesitate to reac
 
 #### LINKS & RESOURCES FOR THIS BOUNTY
 
+* **[Vega Concepts](https://docs.vega.xyz/docs/concepts/vega-chain/)** - Important concepts to understand on Vega, from tokens to staking and delegation
 * **[Fairground API documentation](https://docs.testnet.vega.xyz/docs/apis/block-decoder/)** - Tendermint and Block explorer (Block Decoder API)
 * **[Fairground API how-to guides](https://docs.fairground.vega.xyz/docs/api-howtos/)** - Getting started, data node and state queries
 * **[Vega API Documentation](https://docs.vega.xyz/api/overview/)** - Wallet, gRPC, GraphQL and REST documentation
@@ -120,12 +121,12 @@ The number of nodes that can form a new block is smaller compared to traditional
 There are a handful of community tools/UIs that have been built to show staking and delegation data from Vega networks, use these as help but we strongly believe you can go further with your challenge submissions:
 
 <a href="https://stake.nodes.guru/vega/world" target="_blank"><img width="843" src="https://user-images.githubusercontent.com/149245/152829604-d1eaee6f-9dbc-4cc8-b876-7dbc8001daaa.png"></a>
-**LINK:** `VEGA Staking World - Nodes.guru (validator)`
+**LINK:** `VEGA Staking World - Nodes.guru`
 
 <br/>
 <a href="https://ryabina.retool.com/embedded/public/9567cc8a-832e-4978-b30f-0251929fde96" target="_blank"><img width="843" src="https://user-images.githubusercontent.com/149245/152829660-62d08e29-8c51-4eea-9640-d1a9380bed9b.png"></a>
 
-**LINK:** `VEGA Dashboard - Ryabina (validator)`
+**LINK:** `VEGA Dashboard - Ryabina`
 
 #### BOUNTY CRITERIA
 
@@ -139,6 +140,7 @@ There's room for plenty of stretch goals with this bounty, dont hesitate to reac
 #### LINKS & RESOURCES FOR THIS BOUNTY
 
 * **[Tendermint dPOS vs EOS dPOS](https://blog.cosmos.network/consensus-compare-tendermint-bft-vs-eos-dpos-46c5bca7204b)** - Describes in more detail the concepts of Tendermint DPOS
+* **[Vega Concepts](https://docs.vega.xyz/docs/concepts/vega-chain/)** - Important concepts to understand on Vega, from tokens to staking and delegation
 * **[Fairground API documentation](https://docs.testnet.vega.xyz/docs/apis/)** - Information on testnet including choosing an API (if you want streaming on a front end client, go for GraphQL)
 * **[Fairground API how-to guides](https://docs.fairground.vega.xyz/docs/api-howtos/)** - Getting started, data node and state queries
 * **[Vega API Documentation](https://docs.vega.xyz/api/overview/)** - Wallet, gRPC, GraphQL and REST documentation
@@ -192,7 +194,7 @@ If at any point in time orders maintained by your bot don’t cover the liquidit
 
 Splitting your funds wisely between the commitment amount and other funds to actually support orders required to meet it is another skill you have to master. 
 
-Don’t worry if all of this sounds rather complicated, in addition to the video guides and walk-throughs listed below, there will be an opportunity to attend the workshop [Programming Liquidity on Vega Futures Markets](https://sched.co/w4yW) where the Vega team will demonstrate some of these concepts to you in more detail :brain:
+### Don’t worry if all of this sounds rather complicated, in addition to the video guides and walk-throughs listed below, there will be an opportunity to attend the workshop [Programming Liquidity on Vega Futures Markets](https://www.eventbrite.com/e/vega-protocol-programming-liquidity-on-futures-markets-tickets-261339171497) where the Vega team will demonstrate some of these concepts to you in more detail :brain:
 
 #### IMPORTANT SETUP AND TEST MARKET INFORMATION
 
@@ -221,9 +223,10 @@ In addition to the overall Judging Criteria, for this bounty, we'd love you to t
 
 #### RESOURCES FOR THIS BOUNTY
 
-* [How to sign transactions with Vega Wallet]() 
-* [How to submit liquidity provisions on Vega]()
-* [How to deposit and withdraw ERC-20 assets on Vega]()
+* **[How to sign transactions with Vega Wallet](https://github.com/vegaprotocol/vegawallet/blob/develop/service/README.md#commands)** - See also API how-to guides below
+* **[How to submit liquidity provisions on Vega](https://docs.fairground.vega.xyz/docs/api-howtos/liquidity-provision/)** - Recommended example guide in Python
+* **[How to deposit and withdraw ERC-20 assets on Vega](https://docs.fairground.vega.xyz/docs/console/#how-to-deposit-tokens-to-use-on-vega)** - Use Fairground Console to deposit test assets
+* **[Vega Concepts](https://docs.vega.xyz/docs/concepts/vega-chain/)** - Important concepts to understand on Vega, from tokens to staking and delegation
 * **[Fairground API documentation](https://docs.testnet.vega.xyz/docs/apis/)** - Information on testnet including choosing an API (if you want streaming support for your bot, go for gRPC or GraphQL)
 * **[Fairground API how-to guides](https://docs.fairground.vega.xyz/docs/api-howtos/)** - Getting started, data node and state queries
 * **[Vega API Documentation](https://docs.vega.xyz/api/overview/)** - Wallet, gRPC, GraphQL and REST documentation
@@ -242,7 +245,7 @@ Inspired by projects like "Cryptosheets.com" and the team's general love for all
 
 The goal is to provide simple and easy to understand visual access to data from a Vega network, with powerful features that are currently only exposed by applications like https://console.fairground.wtf or direct via API scripts.
 
-The plugin should be open source and easy to demonstrate, with a walkthrough video and a helpful installation guide showing how to add the plugin/add-in.
+The plugin/add-in should be open source and easy to demonstrate, with a walkthrough video and a helpful installation guide showing how to add to your spreadsheet.
 
 See the section [Bounty Criteria](#bounty-criteria-3) below for the tasks and features we're hoping you can try and deliver for this bounty brief.
 
@@ -288,6 +291,7 @@ We're an exciting DEFI / blockchain project with a vibrant testnet on which we'r
 
 * **Please visit us on the [SporkDAO discord](https://discord.gg/sporkdao) server channel:** `Presenting Sponsors > #vega`
 * [Vega at ETH Denver](https://vega.xyz/ethdenver/) - Events and information for workshops, events and talks during the conference.
+* [Vega Wallet](https://github.com/vegaprotocol/vegawallet/) - CLI/Command line wallet needed to interact with Vega networks
 * [Fairground Testnet documentation](https://docs.fairground.vega.xyz) - Guides, documentation, code snippets on integrating with Vega using the Fairground network.
 * [Vega Sample API Scripts](https://github.com/vegaprotocol/sample-api-scripts/) - How to example API scripts for many of the features on Vega, in Python and more.
 * [Vega Protocol Specs](https://github.com/vegaprotocol/specs/tree/main/protocol#fundamental-concepts) - Specifications, fundamentals and detailed documentation on the Vega protocol itself (deeper than the whitepaper)
@@ -296,4 +300,4 @@ We're an exciting DEFI / blockchain project with a vibrant testnet on which we'r
 * [Vega Discord](https://vega.xyz/discord) - Official Vega discord, please join and contribute or ask questions from the team
 * [Vega Whitepaper](https://vega.xyz/papers/vega-protocol-whitepaper.pdf]) - The official Vega Protocol whitepaper
 
-<img src="https://github.com/vegaprotocol/brand/raw/main/1-Vega-Brand-Basics/1G-Hixel/Vega_Hixel_Black.png" width="30%" />
+<img src="https://github.com/vegaprotocol/brand/raw/main/1-Vega-Brand-Basics/1G-Hixel/Vega_Hixel_Black.png" width="30%" alt="Hixel says Hi!" title="Hixel says Hi!" />
