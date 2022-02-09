@@ -134,6 +134,9 @@ In addition to the overall Judging Criteria, for this bounty, we'd love you to t
 
 * **Learning of DPOS on Vega and related APIs**
 * **Design a novel user interface to show key information on staking on Vega**
+* **Help users of the interface make informed decisions about how much to nominate and who too***
+* **Help users understand the potential income they might receive from staking (given some assumptions)**
+* **Help users understand the current state of the system (how much is staked this Vs next epoch)**
 
 There's room for plenty of stretch goals with this bounty, dont hesitate to reach out to us on Discord or in-person to learn more.
 
