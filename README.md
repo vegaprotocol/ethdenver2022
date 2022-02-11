@@ -207,14 +207,14 @@ Splitting your funds wisely between the commitment amount and other funds to act
 
 Throughout the hackathon all the participants will have access to a test network running a custom futures market. You won’t be alone though, there will be various bots operating on it in order to make it more like a live market.
 
-This market is called 'Tesla quarterly' and you will need to deposit the Ropsten ERC-20 test asset tEURO to a Vega Wallet in order to place liquidity orders.
+This market is called 'Tesla Quarterly (30 Jun 2022)' and you will need to deposit the Ropsten ERC-20 test asset tEURO to a Vega Wallet in order to place liquidity orders.
 
 #### BOUNTY CRITERIA
 
 In addition to the overall Judging Criteria, for this bounty, we'd love you to try and achieve the following:
 
 * **Learning of the concepts of LP on Vega**
-* **Place an LP order on the Tesla XX market using a bot**
+* **Place an LP order on the Tesla Quarterly (30 Jun 2022) market using a bot**
 * **Ability to manage your LP order programmatically and update positions**
 * **Implement a market-neutral market making strategy**
 * **Demonstrate the code and strategy running on the Vega testnet**
@@ -292,19 +292,23 @@ There's room for plenty of stretch goals with this bounty, dont hesitate to reac
 
 For more help please see the General Support & Resources section below or reach out to us on our social channels.
 
+# On using the Fairground Testnet 🎢
+
+Most of the code you'll write will target the **[Vega Fairground testnet](https://fairground.wtf)**, this is an **experimental network** free from the risks of real trading, Fairground is a safe and fun place to try out Vega yourself. Note, however that Fairground is an experimental network and running a version of Vega which is to be treated as alpha software. Crashes, unexpected quirks or issues can occur! We hope you'll participate in helping to find bugs and battle harden Vega. If you do spot something, please help reporting it either directly to us or via the [Nolt issue tracker](https://vega-testnet.nolt.io). Thank you!
+
 # General Support & Resources
 
-We're an exciting DEFI / blockchain project with a vibrant testnet on which we're adding new features all the time. Therefore, we'd love anyone interested in completing our ETHDenver bounties to get to know our platform first. We feel it is very important for you test out the platform, check out our documentation and understand the way the protocol works to complete our bounties to a high standard. We aim to be friendly and helpful, so don't be afraid to ask questions on Discord or in person.
+We're an exciting DEFI / blockchain project with an experimental testnet on which the team are adding new features all the time. Therefore, we'd love anyone interested in completing our ETHDenver bounties to get to know the testnet first. We feel it is very important for you test out the software, check out our documentation and understand the way the protocol works to complete the bounties to a high standard. We aim to be friendly and helpful, so don't be afraid to ask questions on Discord or in person - during the hackathon drop **Chris | Vega** or any of the community team a message if you want to meet up.
 
 * **Please visit us on the [SporkDAO discord](https://discord.gg/sporkdao) server channel:** `Presenting Sponsors > #vega`
-* [Vega at ETH Denver](https://vega.xyz/ethdenver/) - Events and information for workshops, events and talks during the conference.
-* [Vega Wallet](https://github.com/vegaprotocol/vegawallet/) - CLI/Command line wallet needed to interact with Vega networks
-* [Fairground Testnet documentation](https://docs.fairground.vega.xyz) - Guides, documentation, code snippets on integrating with Vega using the Fairground network.
-* [Vega Sample API Scripts](https://github.com/vegaprotocol/sample-api-scripts/) - How to example API scripts for many of the features on Vega, in Python and more.
-* [Vega Protocol Specs](https://github.com/vegaprotocol/specs/tree/main/protocol#fundamental-concepts) - Specifications, fundamentals and detailed documentation on the Vega protocol itself (deeper than the whitepaper)
-* [Vega Console on Fairground](https://console.fairground.wtf) - UI/dAPP to interact with trading markets on Vega
-* [Fairground Testnet microsite](https://fairground.wtf) - The official Vega testnet called Fairground, go here to start hacking with Ropsten ERC-20 test assets
-* [Vega Discord](https://vega.xyz/discord) - Official Vega discord, please join and contribute or ask questions from the team
-* [Vega Whitepaper](https://vega.xyz/papers/vega-protocol-whitepaper.pdf]) - The official Vega Protocol whitepaper
+* **[Vega at ETH Denver](https://vega.xyz/ethdenver/)** - Events and information for workshops, events and talks during the conference.
+* **[Vega Wallet](https://github.com/vegaprotocol/vegawallet/)** - CLI/Command line wallet needed to interact with Vega networks
+* **[Fairground Testnet documentation](https://docs.fairground.vega.xyz)** - Guides, documentation, code snippets on integrating with Vega using the Fairground network.
+* **[Vega Sample API Scripts](https://github.com/vegaprotocol/sample-api-scripts/)** - How to example API scripts for many of the features on Vega, in Python and more.
+* **[Vega Protocol Specs](https://github.com/vegaprotocol/specs/tree/main/protocol#fundamental-concepts)** - Specifications, fundamentals and detailed documentation on the Vega protocol itself (deeper than the whitepaper)
+* **[Vega Console on Fairground](https://console.fairground.wtf)** - UI/dAPP to interact with trading markets on Vega
+* **[Fairground Testnet microsite](https://fairground.wtf)** - The official Vega testnet called Fairground, go here to start hacking with Ropsten ERC-20 test assets
+* **[Vega Discord](https://vega.xyz/discord)** - Official Vega discord, please join and contribute or ask questions from the team
+* **[Vega Whitepaper](https://vega.xyz/papers/vega-protocol-whitepaper.pdf])** - The official Vega Protocol whitepaper
 
 <img src="https://github.com/vegaprotocol/brand/raw/main/1-Vega-Brand-Basics/1G-Hixel/Vega_Hixel_Black.png" width="30%" alt="Hixel says Hi!" title="Hixel says Hi!" />
