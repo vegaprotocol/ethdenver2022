@@ -1,8 +1,8 @@
 <img width="1439" alt="ethdenver-2022-header" src="https://user-images.githubusercontent.com/149245/151204295-840df036-c96b-4723-8943-42a73c1bf4a0.png">
 
-# VEGA ETHDenver Hackathon Launchpad
+# VEGA ETHDenver Virtual Hackathon Launchpad
 
-### Thinking of participating in the ETHDenver 2022 hackathon and working on one of the Vega bounties? Well, you're in the right place. The launchpad gives detailed information on each of the bounty challenges, the project, sample code and more.
+### Thinking of participating in the ETHDenver 2022 virtual hackathon and working on one of the Vega bounties? Well, you're in the right place. The launchpad gives detailed information on each of the bounty challenges, the project, sample code and more.
 
 
 ## What is Vega?
@@ -16,6 +16,9 @@ Through a rich set of APIs, developers can build on top of Vega. Platform engine
 Vega believes that the web3 community can help build the future of DEFI derivatives. We're super excited to see what you come up with during the hackathon.
 
 ## Judging Criteria
+
+
+### The In-Person hackathon has ended, but the virtual hackathon continues to 20th March 2022 :) Anyone can participate! <a href="#how-to-submit-your-entry">How do I submit my entry?</a>
 
 This year at ETH Denver, we'll be judging bounties with the following criteria:
 
@@ -32,7 +35,7 @@ Note: Each bounty brief also contains a list of more detailed pointers to help g
 
 # 1 - Build a Vega block explorer
 
-### PRIZES:<br>IN-PERSON **$2500** USDT (winner)  **$1250** USDT (runner-up)<br>VIRTUAL **$2500** USDT (winner)  **$1250** USDT (runner-up)
+### PRIZES:<br>VIRTUAL **$2500** USDT (winner)  **$1250** USDT (runner-up)<br>IN-PERSON **$2500** USDT (winner)  **$1250** USDT (runner-up)
 
 Bounty awards will go to the best teams that create (or extend) a block explorer to report and visualise blockchain transaction data as well as any Vega state changes queried from a data node.
 
@@ -91,7 +94,7 @@ For more help please see the General Support & Resources section or reach out to
 
 # 2 - Visualise staking and delegation on Vega networks
 
-### PRIZES:<br>IN-PERSON **$2500** USDT (winner)  **$1250** USDT (runner-up)<br>VIRTUAL **$2500** USDT (winner)  **$1250** USDT (runner-up)
+### PRIZES:<br>VIRTUAL **$2500** USDT (winner)  **$1250** USDT (runner-up)<br>IN-PERSON **$2500** USDT (winner)  **$1250** USDT (runner-up)
 
 Bounty awards will go to the teams that create the most impressive apps that can track, store and visualise staking and delegation on Vega. These tools should help the Vega community to keep the network safe and decentralised by informing others about the state of the network, as well as educating on staking fundamentals with respect to Vega.
 
@@ -159,7 +162,7 @@ For more help please see the General Support & Resources section or reach out to
 
 # 3 - Create Vega Liquidity Provision (LP) Bots
 
-### PRIZES:<br>IN-PERSON **$2500** USDT (winner)  **$1250** USDT (runner-up)<br>VIRTUAL **$2500** USDT (winner)  **$1250** USDT (runner-up)
+### PRIZES:<br>VIRTUAL **$2500** USDT (winner)  **$1250** USDT (runner-up)<br>IN-PERSON **$2500** USDT (winner)  **$1250** USDT (runner-up)
 
 Liquidity Provision (LP) is on one of the central concepts of Vega. So for this challenge, winning bounty awards will go to the teams that create the most impressive LP bots (also commonly known as Market Making bots!). 
 
@@ -244,7 +247,7 @@ For more help please see the General Support & Resources section or reach out to
 # 4 - Interact with Vega in your Favorite Spreadsheet
 
 
-### PRIZES:<br>IN-PERSON **$2500** USDT (winner)  **$1250** USDT (runner-up)<br>VIRTUAL **$2500** USDT (winner)  **$1250** USDT (runner-up)
+### PRIZES:<br>VIRTUAL **$2500** USDT (winner)  **$1250** USDT (runner-up)<br>IN-PERSON **$2500** USDT (winner)  **$1250** USDT (runner-up)
 
 The winning award will go to the team that offers the most amazing community plugin for interacting with Vega data via a spreadsheet, you’ll be building for Google Sheets or Microsoft Excel. 
 
@@ -292,6 +295,12 @@ There's room for plenty of stretch goals with this bounty, dont hesitate to reac
 
 For more help please see the General Support & Resources section below or reach out to us on our social channels.
 
+# How to submit your entry
+
+Please visit the hackerlink.io / ETHDenver 2022 Virtual Hackathon website to register your team and **[submit your BUIDL](https://hackerlink.io/hackathon/ethdenver22virtual/?bounty=Vega%20Protocol)**. This website is where teams must register and then submit final challenge code etc. 
+
+Note: Anyone can enter the Virtual Hackathon, we'd love to have you join in!
+
 # On using the Fairground Testnet 🎢
 
 Most of the code you'll write will target the **[Vega Fairground testnet](https://fairground.wtf)**, this is an **experimental network** free from the risks of real trading, Fairground is a safe and fun place to try out Vega yourself. Note, however that Fairground is an experimental network and running a version of Vega which is to be treated as alpha software. Crashes, unexpected quirks or issues can occur! We hope you'll participate in helping to find bugs and battle harden Vega. If you do spot something, please help reporting it either directly to us or via the [Nolt issue tracker](https://vega-testnet.nolt.io). Thank you!
@@ -300,15 +309,14 @@ Most of the code you'll write will target the **[Vega Fairground testnet](https:
 
 We're an exciting DEFI / blockchain project with an experimental testnet on which the team are adding new features all the time. Therefore, we'd love anyone interested in completing our ETHDenver bounties to get to know the testnet first. We feel it is very important for you test out the software, check out our documentation and understand the way the protocol works to complete the bounties to a high standard. We aim to be friendly and helpful, so don't be afraid to ask questions on Discord or in person - during the hackathon drop **Chris | Vega** or any of the community team a message if you want to meet up.
 
-* **Please visit us on the [SporkDAO discord](https://discord.gg/sporkdao) server channel:** `Presenting Sponsors > #vega`
-* **[Vega at ETH Denver](https://vega.xyz/ethdenver/)** - Events and information for workshops, events and talks during the conference.
+* **Please visit us on the [Official Vega Discord](https://vega.xyz/discordo) server channel:** `Developers > #eth-denver-hackathon`
 * **[Vega Wallet](https://github.com/vegaprotocol/vegawallet/)** - CLI/Command line wallet needed to interact with Vega networks
 * **[Fairground Testnet documentation](https://docs.fairground.vega.xyz)** - Guides, documentation, code snippets on integrating with Vega using the Fairground network.
 * **[Vega Sample API Scripts](https://github.com/vegaprotocol/sample-api-scripts/)** - How to example API scripts for many of the features on Vega, in Python and more.
 * **[Vega Protocol Specs](https://github.com/vegaprotocol/specs/tree/main/protocol#fundamental-concepts)** - Specifications, fundamentals and detailed documentation on the Vega protocol itself (deeper than the whitepaper)
 * **[Vega Console on Fairground](https://console.fairground.wtf)** - UI/dAPP to interact with trading markets on Vega
 * **[Fairground Testnet microsite](https://fairground.wtf)** - The official Vega testnet called Fairground, go here to start hacking with Ropsten ERC-20 test assets
-* **[Vega Discord](https://vega.xyz/discord)** - Official Vega discord, please join and contribute or ask questions from the team
+* **[SporkDAO Discord](https://discord.gg/sporkdao)** - Official ETHDenver SporkDAO discord, please join and contribute or ask questions from the team in the #vega channel
 * **[Vega Whitepaper](https://vega.xyz/papers/vega-protocol-whitepaper.pdf])** - The official Vega Protocol whitepaper
 
 <img src="https://github.com/vegaprotocol/brand/raw/main/1-Vega-Brand-Basics/1G-Hixel/Vega_Hixel_Black.png" width="30%" alt="Hixel says Hi!" title="Hixel says Hi!" />
