@@ -7,7 +7,7 @@ import time
 
 
 # Specify your target Vega market identifier for LP
-marketID = "a145091255a884c545b1744f9f20f4d840593ad9ec811f0ba8359bccea03db3a"
+marketID = "3a95f7c59914463942fb1d495e06dce0c13402de3c27d12be576bac629b85c80"
 
 
 #####################################################################################
@@ -54,12 +54,12 @@ submission = {
         "fee": "0.01",
         "buys": [
             {
-                "offset": "-1",
+                "offset": "1",
                 "proportion": "1",
                 "reference": "PEGGED_REFERENCE_MID"
             },
             {
-                "offset": "-2",
+                "offset": "2",
                 "proportion": "2",
                 "reference": "PEGGED_REFERENCE_MID"
             }
@@ -93,6 +93,7 @@ url = f"{wallet_server_url}/api/v1/command/sync"
 response = requests.post(url, headers=headers, json=submission)
 
 print("Signed liquidity commitment and sent to Vega")
+print(response.json())
 
 exit(0)
 time.sleep(10)
@@ -106,13 +107,13 @@ time.sleep(10)
 # (it will now serve as an amendment request):
 # modify fields you want to be amended
 submission = {
-    "liquidityProvisionSubmission": {
+    "liquidityProvisionAmendment": {
         "marketId": marketID,
         "commitmentAmount": "500",
         "fee": "0.005",
         "buys": [
             {
-                "offset": "-1",
+                "offset": "1",
                 "proportion": "1",
                 "reference": "PEGGED_REFERENCE_MID"
             }
@@ -136,5 +137,6 @@ url = f"{wallet_server_url}/api/v1/command/sync"
 response = requests.post(url, headers=headers, json=submission)
 
 print("Signed liquidity commitment (amendment) and sent to Vega")
+print(response.json())
 
 # Completed.

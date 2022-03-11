@@ -6,7 +6,7 @@ import requests
 
 
 # Specify your target Vega market identifier for LP
-marketID = "a145091255a884c545b1744f9f20f4d840593ad9ec811f0ba8359bccea03db3a"
+marketID = "3a95f7c59914463942fb1d495e06dce0c13402de3c27d12be576bac629b85c80"
 
 
 #####################################################################################
@@ -45,7 +45,7 @@ print(f"Selected pubkey from wallet: {pubkey}")
 # note that transaction may get rejected if removing previously supplied liquidity 
 # will result in insufficient liquidity for the market
 submission = {
-    "liquidityProvisionSubmission": {
+    "liquidityProvisionCancellation": {
         "marketId": marketID,
         "commitmentAmount": "0"
     },
@@ -60,5 +60,6 @@ url = f"{wallet_server_url}/api/v1/command/sync"
 response = requests.post(url, headers=headers, json=submission)
 
 print("Signed liquidity commitment (cancellation) and sent to Vega")
+print(response.json())
 
 # Completed.
