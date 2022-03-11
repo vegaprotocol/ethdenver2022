@@ -7,7 +7,7 @@ import time
 
 
 # Specify your target Vega market identifier for LP
-marketID = "a145091255a884c545b1744f9f20f4d840593ad9ec811f0ba8359bccea03db3a"
+marketID = "3a95f7c59914463942fb1d495e06dce0c13402de3c27d12be576bac629b85c80"
 
 
 #####################################################################################
