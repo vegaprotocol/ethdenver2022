@@ -4,6 +4,12 @@ Originally demonstrated by <a href="https://vega.xyz">Vega</a> on Thursday 17th 
 
 *Note: Python3 is required to run these examples.*
 
+## Installation
+
+1. Install Python3 
+2. Install 'requests' (`pip install requests`)
+3. Complete getting started for credentials file as below
+
 ## Getting started for Unix based systems (Mac OS & Linux)
 
 1. Copy or rename the `credentials-template` file as `credentials`.  
