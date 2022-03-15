@@ -16,7 +16,7 @@ Originally demonstrated by <a href="https://vega.xyz">Vega</a> on Thursday 17th 
 1. Edit the `credentials` file. (`nano` and `vim` are installed, or use the built-in Gitpod text editor.)
 1. Import the credentials into your local environment: `source credentials`
 
-# Getting started for Windows
+## Getting started for Windows
 
 1. Copy or rename the `credentials-win-template` file as `credentials-win`.  
 1. Edit the `credentials-win` file.
