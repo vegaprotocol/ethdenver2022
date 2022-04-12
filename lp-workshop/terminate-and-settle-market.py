@@ -9,7 +9,7 @@ import base64
 
 # EDIT YOUR TERMINATION AND SETTLEMENT VALUES BELOW 
 
-target_settlement_price = 117.54 #13322000 (equivalent note dp conversion is automatic below)
+target_settlement_price = 0.14 #13322000 (equivalent note dp conversion is automatic below)
 target_market_dp = 4
 target_dp_converted_price = str(int(target_settlement_price*10**target_market_dp))
 
