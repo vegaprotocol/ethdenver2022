@@ -9,12 +9,12 @@ import base64
 
 # EDIT YOUR TERMINATION AND SETTLEMENT VALUES BELOW 
 
-target_settlement_price = 84.41  #8441000 (equivalent note dp conversion is automatic below)
-target_market_dp = 5
+target_settlement_price = 0.14 #1400 (equivalent note dp conversion is automatic below)
+target_market_dp = 4
 target_dp_converted_price = str(int(target_settlement_price*10**target_market_dp))
 
-target_termination_key = "trading.terminated.SOLUSD"
-target_settlement_key = "price.SOLUSD.value"
+target_termination_key = "trading.terminated.DOGEUSD"
+target_settlement_key = "price.DOGEUSD.value"
 
 # END TERMINATION AND SETTLEMENT VALUES
 
