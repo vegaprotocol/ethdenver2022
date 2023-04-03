@@ -9,12 +9,12 @@ import base64
 
 # EDIT YOUR TERMINATION AND SETTLEMENT VALUES BELOW 
 
-target_settlement_price = 84.41  #8441000 (equivalent note dp conversion is automatic below)
-target_market_dp = 5
+target_settlement_price = 25888 #8441000 (equivalent note dp conversion is automatic below)
+target_market_dp = 2
 target_dp_converted_price = str(int(target_settlement_price*10**target_market_dp))
 
-target_termination_key = "trading.terminated.SOLUSD"
-target_settlement_key = "price.SOLUSD.value"
+target_termination_key = "trading.terminated.BTC2"
+target_settlement_key = "prices.BTC2.value"
 
 # END TERMINATION AND SETTLEMENT VALUES
 
@@ -23,7 +23,7 @@ node_url_rest = os.getenv("NODE_URL_REST")
 wallet_server_url = os.getenv("WALLETSERVER_URL")
 wallet_name = os.getenv("WALLET_NAME")
 wallet_passphrase = os.getenv("WALLET_PASSPHRASE")
-
+marketID = os.getenv("VEGA_MARKET")
 
 """
 Settle the market and send settlement price.
